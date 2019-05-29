@@ -1,0 +1,16 @@
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\bin\Debug\netstandard2.0\PokeTop.deps.json
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\bin\Debug\netstandard2.0\PokeTop.dll
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\PokeTop.csprojAssemblyReference.cache
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\PokeTop.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\PokeTop.AssemblyInfoInputs.cache
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\PokeTop.AssemblyInfo.cs
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\bin\Debug\netstandard2.0\PokeTop.pdb
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\PokeTop.dll
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\PokeTop.pdb
+C:\Users\Lucas Calado\source\repos\PokeTop\PokeTop\obj\Debug\netstandard2.0\Views\Start.xaml.g.cs

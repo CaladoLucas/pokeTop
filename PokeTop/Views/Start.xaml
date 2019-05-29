@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeTop.Views.Start">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="red">
+            <Image HorizontalOptions="CenterAndExpand" 
+               VerticalOptions="Center"
+               Source="https://cdn-images-1.medium.com/max/2600/1*DJZWzlN2BTgRf_NSu0u02g.png"/>
+            <Label FontAttributes="Bold"
+            FontSize="24"
+            TextColor="white"
+            Text="Bem Vindo a sua Pokedex" 
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+            <Entry x:Name="edtNome" 
+               FontAttributes="Bold" 
+               TextColor="black"
+               Placeholder="Digite eu nome:"
+               BackgroundColor="white"               
+               VerticalOptions="CenterAndExpand"
+               FontSize="18"/>
+            <Button x:Name="btnIniciar" 
+                Text="Iniciar"
+                VerticalOptions="Center"
+                Clicked="BtnIniciar_Clicked"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

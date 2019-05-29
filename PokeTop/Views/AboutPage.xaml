@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeTop.Views.AboutPage"
+             xmlns:vm="clr-namespace:PokeTop.ViewModels"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <Label HorizontalOptions="StartAndExpand" 
+               VerticalOptions="CenterAndExpand"
+               FontSize="24"
+               TextColor="Black"
+               Text="Este app consome o webservice de pokemons" >
+        </Label>
+    </StackLayout>
+    
+</ContentPage>
