@@ -15,22 +15,43 @@ namespace PokeTop.Views
     {
         NavigationPage browser = new NavigationPage(new ItemsPage());
         NavigationPage about = new NavigationPage(new AboutPage());
+        Dictionary<int, NavigationPage> MenuPages = new Dictionary<int, NavigationPage>();
         public MainPage()
         {
             InitializeComponent();
-            
+
             MasterBehavior = MasterBehavior.Popover;
 
+            MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        public async Task NavigateFromMenu(int id)
         {
-            this.Detail = browser;
-        }
+            if (!MenuPages.ContainsKey(id))
+            {
+                switch (id)
+                {
+                    case (int)MenuItemType.Browse:
+                        MenuPages.Add(id, new NavigationPage(new ItemsPage()));
+                        break;
+                    case (int)MenuItemType.About:
+                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                        break;
+                }
+            }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
-        {
-            this.Detail = about;
+            var newPage = MenuPages[id];
+
+            if (newPage != null && Detail != newPage)
+            {
+                Detail = newPage;
+
+                if (Device.RuntimePlatform == Device.Android)
+                    await Task.Delay(100);
+
+                IsPresented = false;
+            }
         }
     }
+}
 }

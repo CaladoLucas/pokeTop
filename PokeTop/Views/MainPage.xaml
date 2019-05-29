@@ -4,25 +4,9 @@
             xmlns:views="clr-namespace:PokeTop.Views"            
             x:Class="PokeTop.Views.MainPage">
 
-    <MasterDetailPage.Master>
-        <ContentPage>
-            <StackLayout>
-                <Label HorizontalOptions="CenterAndExpand"
-                   VerticalOptions="CenterAndExpand"
-                   FontAttributes="Bold"
-                   FontSize="Large"
-                   x:Name="lblNomeUsuario"
-                   />
-                <Button Clicked="Button_Clicked" HorizontalOptions="StartAndExpand"
-                                    VerticalOptions="CenterAndExpand"
-                                    Text="Lista de Pokemons"/>
 
-                <Button Clicked="Button_Clicked_1" HorizontalOptions="StartAndExpand"
-                                    VerticalOptions="CenterAndExpand"
-                                    Text="Sobre"/>
-            </StackLayout>            
-        </ContentPage>
-        
+    <MasterDetailPage.Master>
+        <views:MenuPage />
     </MasterDetailPage.Master>
 
     <MasterDetailPage.Detail>
@@ -37,5 +21,5 @@
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>
-    
+
 </MasterDetailPage>
