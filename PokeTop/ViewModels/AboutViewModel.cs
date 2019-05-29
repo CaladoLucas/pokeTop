@@ -11,9 +11,13 @@ namespace PokeTop.ViewModels
         {
             Title = "Sobre o App";
 
+            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://google.com")));
             
         }
 
-        
+        public ICommand OpenWebCommand { get; }
+
+
+
     }
 }
